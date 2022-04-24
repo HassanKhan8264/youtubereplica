@@ -53,7 +53,7 @@ body{
     width: 15vw;
     border: 1px solid;
     height: 7vh;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -112,6 +112,8 @@ body{
 .main{
     display: flex;
     flex-direction: row;
+    border: 1px solid purple;
+    /* flex-wrap: wrap; */
 }
 .rightside{
     width: 15vw;
@@ -162,7 +164,7 @@ body{
     height: auto;
     width: 3vw;
     margin-top: 10px;
-    margin-left: 2px;
+    margin-left: -0.5px;
     padding-top: 8px;
     padding-left: 7px;
     font-size: 12px;
@@ -186,10 +188,10 @@ body{
     height: auto;
     width: 3vw;
     margin-top: 10px;
-    margin-left: 3px;
-    padding-top: 1px;
+    margin-left: 1px;
+    padding-top: 0px;
     padding-left: 1px;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
 
 }
@@ -212,7 +214,7 @@ body{
     height: auto;
     width: 3vw;
     margin-top: 10px;
-    margin-left: 3px;
+    margin-left: 1px;
     padding-top: 1px;
     padding-left: 4px;
     font-size: 12px;
@@ -238,7 +240,7 @@ body{
     height: auto;
     width: 4.1vw;
     margin-top: 10px;
-    margin-left: 3px;
+    margin-left: 1px;
     padding-top: 1px;
     padding-right: 20px;
     font-size: 12px;
@@ -625,28 +627,499 @@ body{
     margin: 1px;
     width: 100%;
 }
+.i{
+    margin: 2px;
+    padding: 4px;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.live{
+    display: flex;
+    justify-content: space-evenly;
+}
+.live>svg{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid red; */
+}
+.divone{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.one,.one svg{
+    width: 50px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+.two{
+/* border:1px solid red; */
+width: 170px;
+
+}
+#ex{
+    width: 180px;
+}
+.main1{
+
+    display: flex;
+    padding: 5px;
+}
+#expand{
+    width: 400px;
+    overflow-y:scroll;
+    height: 600px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
 
 
+.content{
+    border: 1px solid red;
+    width: 250px;
+    margin: 5px;
+}
+.profile img{
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
 
 
+}
+.image img{
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+}
+#profilemenu{
+    width: 200px;
+}
+.account{
+    display: flex;
+    flex-direction: row;
 
-
+}
+.picture{
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.text{
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 150px;
+}
+#blue{
+    color: blue;
+}
 .blank{
     border: 1px solid lightgray;
     height: 2px;
     width:100%;
     margin-top: 5px;
 }
-
-
-
-
-
-
-
-
-
 .midpart{
-    border: 1px solid;
-    width: 95vw;
+    /* border: 1px solid red; */
+    width: 100vw;
+
+    /* display: flex;
+    justify-content: space-evenly; */
 }
+.ul{
+    border: 1px solid red;
+}
+.ul ul{
+    display:flex;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 2px;
+}
+.active{
+    background-color: black;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+}
+.active:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div1{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+
+}
+.div1:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div2{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+
+}
+.div2:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div3{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 190px;
+    text-align: center;
+
+}
+.div3:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div4{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+
+}
+.div4:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div5{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 140px;
+    text-align: center;
+
+}
+.div5:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div6{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+
+}
+.div6:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div7{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+
+}
+.div7:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div8{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+
+}
+.div8:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div9{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 90px;
+    text-align: center;
+
+}
+.div9:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div10{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width:130px;
+    text-align: center;
+
+}
+.div10:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+
+}
+
+
+.div11{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 170px;
+    text-align: center;
+
+}
+.div11:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+
+
+.div12{
+    border: 1px solid lightgray;
+    background-color:#fafafa;
+    margin: 3px;
+    border-radius: 20px;
+    width: 70px;
+    text-align: center;
+
+}
+.div12:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px lightgray;
+
+}
+.videos1 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos1{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+
+}
+.videos2 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos2{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+
+}
+.videos3 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos3{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+
+}
+.videos4 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos4{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.videos5 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos5{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.videos6 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos6{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.videos7 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos7{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.videos8 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos8{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.videos9 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos9{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.videos10 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos10{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.videos11 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos11{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.videos12 iframe{
+    width: 350px;
+    height: 180px;
+}
+.videos12{
+    width: 350px;
+    margin: 10px;
+    border: 1px solid red;
+    display: block;
+
+}
+.vcontent{
+    display: flex;
+    justify-content: space-between;
+}
+.imge{
+    /* border: 1px solid red; */
+    width: 60px;
+    text-align: center;
+}
+.imge img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.videoss{
+    display: flex;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
